@@ -167,7 +167,7 @@ apt install ruby -y
 apt install lolcat -y
 apt install wondershaper -y
 clear
-REPO="https://raw.githubusercontent.com/Nizwarax/instalasi/main/"
+REPO="https://raw.githubusercontent.com/Nizwarax/nix/main/"
 
 start=$(date +%s)
 secs_to_human() {
@@ -629,7 +629,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit IP & Quota"
-wget -q https://raw.githubusercontent.com/Nizwarax/instalasi/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q https://raw.githubusercontent.com/Nizwarax/nix/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
@@ -964,7 +964,7 @@ print_success "WebSocket Python"
 }
 function noobzvpn(){
 clear
-wget --no-check-certificate https://raw.githubusercontent.com/Nizwarax/instalasi/main/noobzvpns.zip
+wget --no-check-certificate https://raw.githubusercontent.com/Nizwarax/nix/main/noobzvpns.zip
 unzip noobzvpns.zip
 cd noobzvpns
 bash install.sh

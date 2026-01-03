@@ -28,7 +28,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/Nizwarax/instalasi/main/menu/menu.zip
+    wget https://raw.githubusercontent.com/Nizwarax/nix/main/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
