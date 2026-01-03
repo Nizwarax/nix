@@ -10,7 +10,7 @@ apt update -y && apt upgrade -y --fix-missing && apt install -y xxd bzip2 wget c
 ```
 - Langkah Ketiga
 ```
-screen -S setup-session bash -c "wget -q https://raw.githubusercontent.com/nsstore14/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh; read -p 'Tekan enter untuk keluar...'"
+screen -S setup-session bash -c "wget -q https://raw.githubusercontent.com/Nizwarax/instalasi/main/setup.sh && chmod +x setup.sh && ./setup.sh; read -p 'Tekan enter untuk keluar...'"
 ```
 - Jika Terjadi Disconnect Saat Proses Penginstallan Gunakan Perintah ini
 - Bisa juga Di Tinggal Ngopi Dll Lalu Tinggal Menghubungkan Ulang
@@ -20,7 +20,7 @@ screen -r -d setup
 
 ## UPDATE
 ```
-wget https://raw.githubusercontent.com/nsstore14/instalasi/main/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/Nizwarax/instalasi/main/update.sh && chmod +x update.sh && ./update.sh
 ```
 ### rebuild deb 10 selain do
 
