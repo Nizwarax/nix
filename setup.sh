@@ -24,9 +24,10 @@ clear
 clear && clear && clear
 clear;clear;clear
 
+
 # // Banner
 echo -e "${BIBlue}╭══════════════════════════════════════════════════════╮${NC}"
-echo -e "${BIBlue}│    ${BIWhite}  WELCOME TO AUTOSCRIPT PREMIUM GTN PROJECT        ${BIBlue} │${NC}"
+echo -e "${BIBlue}│    ${BIWhite}  WELCOME TO AUTOSCRIPT PREMIUM GTN PROJECT      ${BIBlue} │${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════════════════╯${NC}"
 echo ""
 sleep 4
