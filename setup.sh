@@ -51,7 +51,7 @@ data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date |
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
 data_ip="https://raw.githubusercontent.com/Nizwarax/izin_ips/main/ip"
 checking_sc() {
-  useexp=$(wget -qO- $data_ip | grep $ipsaya | awk '{print $3}')
+  useexp=$(wget -qO- $data_ip | grep $ipsaya | grep -o '[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}' | head -n 1)
   if [[ $date_list < $useexp ]]; then
     echo -ne
   else
